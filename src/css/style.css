@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+.bloco-de-desconto{
+    margin-top: 30px;
+    border: 1px dashed blue;
+    border-radius: 30px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+    background-color: rgba(0,0,0,.7);
+    background-blend-mode: overlay;
+    align-items: center;
+}
+
+.bloco-da-descricao, .bloco-da-quantidade{
+    width: 50%;
+    color: white;
+}
+
+.bloco-da-descricao{
+    border: 1px solid red;
+    font-size: 18px;
+
+}
+
+.bloco-da-quantidade{
+    border: 1px solid green;
+    font-size: 50px;
+    margin-left: 15px;
+}
